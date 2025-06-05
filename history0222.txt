@@ -1,0 +1,46 @@
+    1  ls
+    2  cat $HISTORY
+    3  clear
+    4  echo $HISTORY
+    5  history
+    6  history > testhistory.txt
+    7  ls
+    8  cat testhistory.txt
+    9  w
+   10  clear
+   11  time
+   12  pwd
+   13  ll
+   14  clear
+   15  ls
+   16  clear
+   17  cat > leo
+   18  cat leo
+   19  bash leo
+   20  cat << EOF > myscript.sh
+#this is a comment
+
+#obligatory hello world program
+
+echo "hello world"
+EOF
+
+   21  cat myscript.sh
+   22  bash myscript.sh 
+   23  . myscript.sh
+   24  . --help
+   25  clear
+   26  ./myscript.sh
+   27  ll myscript.sh 
+   28  chmod +x myscript.sh 
+   29  ll myscript.sh 
+   30  ll leo
+   31  chmod u+x myscript.sh 
+   32  ll leo
+   33  chmod u+x leo
+   34  ll leo
+   35  chmod +x myscript.sh 
+   36  ./myscript.sh 
+   37  ./ --help
+   38  . --help
+   39  history > history0222.txt
