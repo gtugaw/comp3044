@@ -8,4 +8,4 @@ echo "my working directory is "
 pwd
 sleep 1
 echo "the contents of my directory are "
-ls
+ls && echo "everything is fine"
