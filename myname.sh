@@ -1,6 +1,9 @@
 #!/bin/bash
 
-myname="leo"
+echo -n "What is your name? "
+read myname
+
+#myname="leo"
 myjob="teacher"
 
 echo "hello $myname"
