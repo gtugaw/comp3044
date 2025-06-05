@@ -1,0 +1,231 @@
+    1  ls
+    2  cat $HISTORY
+    3  clear
+    4  echo $HISTORY
+    5  history
+    6  history > testhistory.txt
+    7  ls
+    8  cat testhistory.txt
+    9  w
+   10  clear
+   11  time
+   12  pwd
+   13  ll
+   14  clear
+   15  ls
+   16  clear
+   17  cat > leo
+   18  cat leo
+   19  bash leo
+   20  cat << EOF > myscript.sh
+#this is a comment
+
+#obligatory hello world program
+
+echo "hello world"
+EOF
+
+   21  cat myscript.sh
+   22  bash myscript.sh 
+   23  . myscript.sh
+   24  . --help
+   25  clear
+   26  ./myscript.sh
+   27  ll myscript.sh 
+   28  chmod +x myscript.sh 
+   29  ll myscript.sh 
+   30  ll leo
+   31  chmod u+x myscript.sh 
+   32  ll leo
+   33  chmod u+x leo
+   34  ll leo
+   35  chmod +x myscript.sh 
+   36  ./myscript.sh 
+   37  ./ --help
+   38  . --help
+   39  history > history0222.txt
+   40  nano myscript.sh 
+   41  cat myscript.sh 
+   42  clear
+   43  echo $SHELL
+   44  echo $PATH
+   45  myscript.sh
+   46  PATH=$PATH:~
+   47  echo $PATH
+   48  myscript.sh
+   49  ls
+   50  myscript.sh
+   51  clear
+   52  ls
+   53  clear
+   54  echo $PATH
+   55  clear
+   56  history > history0232.txt
+   57  import --help
+   58  scrot
+   59  shutter
+   60  sudo apt-get install scrot
+   61  sudo apt install scrot
+   62  nano myscript.sh 
+   63  ./myscript.sh 
+   64  nano myscript.sh 
+   65  ./myscript.sh 
+   66  nano myscript.sh 
+   67  ./myscript.sh 
+   68  clear
+   69  myname="leo"
+   70  echo myname
+   71  echo $myname
+   72  nano myname.sh
+   73  chmod u+x myname.sh 
+   74  ./myname.sh
+   75  nano myname.sh
+   76  ./myname.sh
+   77  nano myname.sh
+   78  ./myname.sh
+   79  nano myname.sh
+   80  ./myname.sh
+   81  nano myname.sh
+   82  ./myname.sh
+   83  nano myname.sh
+   84  history > history0257.txt
+   85  sudo apt install flameshot
+   86  nano myname.sh
+   87  nano myscript.sh
+   88  nano testcopy.sh
+   89  bash testcopy.sh
+   90  clear
+   91  echo "one two three" > wordfile.txt
+   92  ls
+   93  cat wordfile.txt
+   94  awk '{print $1}' wordfile.txt
+   95  awk '{print $2}' wordfile.txt
+   96  nano wordfile.txt
+   97  awk '{print $2}' wordfile.txt
+   98  awk -F, '{print $2}' wordfile.txt
+   99  echo "leo is a wonderful person and leo is a great teacher." > teacher.txt
+  100  cat teacher.txt
+  101  cp teacher.txt teacher2.txt
+  102  sed 's/leo/jasmine/g' teacher.txt
+  103  cat teacher.txt
+  104  sed -i.bkup 's/leo/jasmine/g' teacher.txt
+  105  lll
+  106  ll
+  107  cat teacher.txt
+  108  cat teacher.txt.bkup
+  109  ls
+  110  nano myname.sh
+  111  .myname.sh
+  112  ./myname.sh
+  113  mkdir Documents
+  114  ls -al ~/Documents/
+  115  ls
+  116  ls -al ~
+  117  nano arguments.sh
+  118  chmod u+x arguments.sh
+  119  ./arguments.sh
+  120  ./arguments.sh leo
+  121  ./arguments.sh sue
+  122  nano arguments.sh
+  123  ./arguments.sh sue teacher
+  124  nano arguments.sh
+  125  ./arguments.sh sue teacher
+  126  ./arguments.sh sue teacher one two three
+  127  ls
+  128  echo $?
+  129  ls fake
+  130  echo $?
+  131  nano arguments.sh
+  132  ./arguments.sh sue teacher one two three
+  133  echo $?
+  134  echo 20 + 30
+  135  expr 20 + 30
+  136  expr 20 * 30
+  137  expr 20 \* 30
+  138  addResult=$(expr 20 + 30)
+  139  echo $addResult
+  140  nano calc.sh
+  141  . calc.sh
+  142  expr 5 / 3
+  143  history > history0343.txt
+  144  echo $RANDOM
+  145  nano calc.sh
+  146  . calc.sh
+  147  nano calc.sh
+  148  . calc.sh
+  149  nano calc.sh
+  150  . calc.sh
+  151  nano calc.sh
+  152  . calc.sh
+  153  clear
+  154  nano grscript.sh
+  155  chmod u+x grscript.sh
+  156  ./grscript.sh
+  157  nano grscript.sh
+  158  ./grscript.sh
+  159  nano grscript.sh
+  160  ./grscript.sh
+  161  nano grscript.sh
+  162  ./grscript.sh
+  163  nano grscript.sh
+  164  ./grscript.sh
+  165  ./grscript.sh leo
+  166  nano grscript.sh
+  167  ./grscript.sh
+  168  history > history0400.txt
+  169  clear
+  170  now
+  171  echo $now
+  172  clear
+  173  ./grscript.sh leo
+  174  ./grscript.sh root
+  175  ./grscript.sh codespace
+  176  clear
+  177  test --help
+  178  test 1 -ne 2
+  179  nano grscript.sh
+  180  ./grscript.sh codespace
+  181  ./grscript.sh
+  182  nano ifscript.sh
+  183  chmod u+x ifscript.sh
+  184  ./ifscript.sh
+  185  ls
+  186  cat leo
+  187  ./ifscript.sh
+  188  nano ifscript.sh
+  189  ./ifscript.sh
+  190  ./ifscript.sh leo
+  191  ./ifscript.sh myname.sh
+  192  nano ifscript.sh
+  193  ./ifscript.sh 
+  194  ./ifscript.sh Documents
+  195  nano ifscript.sh
+  196  ./ifscript.sh Documents
+  197  nano ifscript.sh
+  198  ./ifscript.sh Documents
+  199  htop
+  200  sudo apt remove htop
+  201  htop
+  202  nano ifcomscript.sh
+  203  chmod u+x ifcomscript.sh
+  204  ./ifcomscript.sh
+  205  chmod u+x ifcomscript.sh
+  206  ./ifcomscript.sh top
+  207  ./ifcomscript.sh htop
+  208  nano ifcomscript.sh
+  209  sudo apt update
+  210  htop
+  211  nano ifcomscript.sh
+  212  ./ifcomscript.sh htop
+  213  nano multiif.sh
+  214  nash multiif.sh
+  215  bash multiif.sh
+  216  bash multiif.sh leo
+  217  bash multiif.sh hello
+  218  bash multiif.sh goodbye
+  219  nano caseif.sh
+  220  bash caseif.sh
+  221  bash caseif.sh goodbye
+  222  bash caseif.sh hi
+  223  bash caseif.sh hello
+  224  history > history0441.txt

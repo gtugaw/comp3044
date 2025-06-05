@@ -6,7 +6,7 @@
 
 name=$1
 
-if test $# -ne 0; then
+if [ $# -ne 0 ]; then
 
 
 	if grep -q $name /etc/passwd; then
