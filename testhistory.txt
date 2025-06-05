@@ -1,0 +1,6 @@
+    1  ls
+    2  cat $HISTORY
+    3  clear
+    4  echo $HISTORY
+    5  history
+    6  history > testhistory.txt
