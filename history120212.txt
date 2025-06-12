@@ -1,0 +1,17 @@
+    1  ls
+    2  sudo apt update -yy
+    3  clear
+    4  w
+    5  htop
+    6  clear
+    7  pwd
+    8  nano forloop.sh
+    9  chmod u+x forloop.sh 
+   10  ./forloop.sh 
+   11  nano forloop.sh
+   12  ./forloop.sh 
+   13  nano forloop.sh
+   14  ./forloop.sh 
+   15  nano forloop.sh
+   16  ./forloop.sh 
+   17  history > history120212.txt
