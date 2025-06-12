@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo $name
 servers="servera serverb serverc"
 for s in $servers
 do
