@@ -1,0 +1,116 @@
+    1  ls
+    2  sudo apt update -yy
+    3  clear
+    4  w
+    5  htop
+    6  clear
+    7  pwd
+    8  nano forloop.sh
+    9  chmod u+x forloop.sh 
+   10  ./forloop.sh 
+   11  nano forloop.sh
+   12  ./forloop.sh 
+   13  nano forloop.sh
+   14  ./forloop.sh 
+   15  nano forloop.sh
+   16  ./forloop.sh 
+   17  history > history120212.txt
+   18  nano forloop.sh
+   19  ./forloop.sh 
+   20  nano forloop.sh
+   21  ./forloop.sh 
+   22  echo *
+   23  sudo apt update -yy
+   24  nano forfiles.sh
+   25  chmod u+x forfiles.sh 
+   26  ./forfiles.sh 
+   27  sudo apt install asciinema
+   28  ls
+   29  nano arguloop.sh
+   30  chmod u+x arguloop.sh
+   31  ./arguloop.sh
+   32  ./arguloop.sh leo
+   33* ./arguloop.sh leo
+   34  nano arguloop.sh
+   35  ./arguloop.sh leo hello
+   36  nano arguloop.sh
+   37  ./arguloop.sh leo hello
+   38  nano arguloop.sh
+   39  ./arguloop.sh leo hello
+   40* 
+   41  nano dir.sh
+   42  chmod u+x dir.sh
+   43  echo * > dir.txt
+   44  cat dir.txt
+   45  nano dir.sh
+   46  ./dir.sh
+   47  nano dir.sh
+   48  ls 
+   49  cat dir.txt
+   50  mkdir testdir
+   51  echo * > dir.txt
+   52  ./dir.sh
+   53  asciinema play test.cast
+   54  ls /
+   55  ls ~
+   56  pwd
+   57  mkdir logfiles
+   58  ls
+   59  pwd
+   60  mkdir logfiles/log1
+   61  ld
+   62  ls
+   63  ls logfiles
+   64  mkdir /workspaces/comp3044/logfiles/log2
+   65  ls logfiles
+   66  cd logfiles
+   67  cd log2
+   68  ls
+   69  mkdir ../log3
+   70  ld
+   71  ls
+   72  ls ..
+   73  ls ~
+   74  pwd
+   75  cd ~
+   76  pwd
+   77  cd -
+   78  pwd
+   79  cd -
+   80  ls
+   81  cd -
+   82  mkdir ~/logfiles/log4
+   83  mkdir ~/workspaces/comp3044/logfiles/log4
+   84  ls
+   85  mkdir ../log4
+   86  sudo cp /var/log/*.log ../../logfiles
+   87  ls
+   88  cd ..
+   89  ls
+   90  nano tarlog.sh
+   91  chmod u+x tarlog.sh
+   92  ./tarlog.sh
+   93  ls
+   94  ./tarlog.sh
+   95  ls logfiles/
+   96  ls
+   97  nano tarlog.sh
+   98  ./tarlog.sh
+   99  ls
+  100  cd ..
+  101  ls
+  102  cat << EOF > cities.txt
+toronto
+vancouver
+montreal
+calgary
+EOF
+
+  103  cat cities.txt
+  104  touch cities.txt
+  105  touch weather.sh
+  106  cat weather.sh
+  107  nano weather.sh
+  108  chmod u+x weather.sh
+  109  ./weather.sh
+  110  history > history120306.txt
