@@ -1,0 +1,26 @@
+    1  ls
+    2  nano arguloop.sh
+    3  exit
+    4  nano tarlogx.sh
+    5  chmod u+x tarlogx.sh 
+    6  ./tarlogx.sh 
+    7  nano tarlogx.sh
+    8  man date
+    9  nano tarlogx.sh
+   10  ./tarlogx.sh
+   11  ls
+   12  ls logfiles
+   13  ls logfiles/log-2025-m%d/
+   14  ./tarlogx.sh
+   15  ls
+   16  nano tarlogx.sh
+   17  ./tarlogx.sh
+   18  ls 
+   19  ls logfiles
+   20  ls logfiles/log-2025-06-12/
+   21  cat error.txt
+   22  ls
+   23  nano tarlogx.sh
+   24  ./tarlogx.sh
+   25  nano tarlogx.sh
+   26  history > history120408.txt
