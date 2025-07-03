@@ -1,0 +1,40 @@
+    1  ls
+    2  asciinema
+    3  ls
+    4  cd 20250703/
+    5  ks
+    6  ls
+    7  free -m
+    8  arch
+    9  lscpu
+   10  free
+   11  free -m
+   12  free -g
+   13  history
+   14  history > history0221.txt
+   15  lspci
+   16  lsusb
+   17  fdisk
+   18  fdisk -1
+   19  sudo apt update -yy
+   20  fdisk -1
+   21  sudo apt install fdisk
+   22  fdisk
+   23  fdisk -l
+   24  sudo apt install lspci
+   25* sudo apt install l
+   26  sudo fdisk -l
+   27  sudo fdisk
+   28  sudo fdisk -l
+   29  sudo lspci
+   30  sudo lsusb
+   31  sudo apt install lspci
+   32  sudo fdisk -l
+   33  sudo fdisk /dev/sdc1
+   34  sudo apt install gparted
+   35  gparted
+   36  sudo gparted
+   37  lsblk
+   38  umoun /media/leo/Ventoy
+   39  umount /media/leo/Ventoy
+   40  history > history0250.txt

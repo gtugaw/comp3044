@@ -1,0 +1,14 @@
+    1  ls
+    2  asciinema
+    3  ls
+    4  cd 20250703/
+    5  ks
+    6  ls
+    7  free -m
+    8  arch
+    9  lscpu
+   10  free
+   11  free -m
+   12  free -g
+   13  history
+   14  history > history0221.txt
