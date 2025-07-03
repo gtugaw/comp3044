@@ -1,0 +1,31 @@
+    1  history
+    2  ls
+    3  cd 20250703/
+    4  ls
+    5  pstree
+    6  ps
+    7  top
+    8  htop
+    9  kill --help
+   10  killall --help
+   11  free
+   12  free -g
+   13  free -s 10
+   14  ls /
+   15  ls /var/log
+   16  cat /var/log/bootstrap.log
+   17  file /var/log/btmp
+   18  file /var/log/wtmp
+   19  file /var/log/dmesg
+   20  ls
+   21  ls /var/log/
+   22  file /var/log/lastlog
+   23  file /var/log/journal
+   24  file /var/log/dpkg.log
+   25  tail -f  /var/log/dpkg.log
+   26  history > history0428.txt
+   27  dkpg --help
+   28  dpkg --help
+   29  dpkg -L asciinema
+   30  dpkg -L nano
+   31  history > history0431.txt
