@@ -1,0 +1,18 @@
+    1  mkdir 20250710
+    2  cd 202507
+    3  cd 20250710
+    4  ls
+    5  touch chap14.txt
+    6  cd..
+    7  cd ..
+    8  ls
+    9  sudo apt update -yy
+   10  sudo apt install asciinema
+   11  cd 20250710
+   12  ls
+   13  cat /etc/hostname
+   14  cat /etc/resolv.conf
+   15  ls
+   16  ls /etc/
+   17  cat /etc/netconfig
+   18  history > history0253.tx
