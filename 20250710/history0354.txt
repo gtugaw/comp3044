@@ -1,0 +1,112 @@
+    1  mkdir 20250710
+    2  cd 202507
+    3  cd 20250710
+    4  ls
+    5  touch chap14.txt
+    6  cd..
+    7  cd ..
+    8  ls
+    9  sudo apt update -yy
+   10  sudo apt install asciinema
+   11  cd 20250710
+   12  ls
+   13  cat /etc/hostname
+   14  cat /etc/resolv.conf
+   15  ls
+   16  ls /etc/
+   17  cat /etc/netconfig
+   18  history > history0253.tx
+   19  cat /etc/hostname
+   20  ls /etc/
+   21  cat /etc/resolv.conf
+   22  cd /etc
+   23  cat hosts
+   24  cat hostname
+   25  ping localhost
+   26  ping google.com
+   27  cd ~
+   28  ls
+   29  cd /
+   30  pwd
+   31  cd /
+   32  ls
+   33  cd ~
+   34  ls
+   35  ping www.google.com
+   36  sudo ping www.google.com
+   37  ping --help
+   38  sudo apt install iputils-ping
+   39  ping www.google.com
+   40  ping localhost
+   41  ping google.ca
+   42  ping -c4 google.ca
+   43  ping localhost
+   44  ls
+   45  cd /etc/
+   46  ls
+   47  cat nsswitch.conf 
+   48  cat hosts
+   49  ping codespaces-286e77 
+   50  ifconfig
+   51  ip
+   52  ifconfig
+   53  ip
+   54  ip --help
+   55  ifconfig
+   56  ip addr show
+   57  ip link
+   58  route
+   59  route -n
+   60  arp
+   61  arp -n
+   62  nestat -i
+   63  netstat -i
+   64  netstat -r
+   65  netstat -tln
+   66  ss
+   67  ss | head
+   68  traceroute
+   69  host localhost
+   70  sudo apt install bind9-host
+   71  nslookup google.ca
+   72  host localhost
+   73  dig google.ca
+   74  sudo apt install bind9-dnsutils
+   75  dig google.ca
+   76  ls
+   77  ls ~
+   78  ~
+   79  cd ~
+   80  ls
+   81  cd..
+   82  cd ..
+   83  ls
+   84  cd codespace/
+   85  ls
+   86  cd nvm
+   87  ls
+   88  cd ..
+   89  ssh -help
+   90  history > history0352.txt
+   91  ls
+   92  cd /home
+   93  ls
+   94  cd codespace/
+   95  ls
+   96  cd java/
+   97  ls
+   98  cd ..
+   99  ls
+  100  cd nvm
+  101  ls
+  102  cd..
+  103  cd.
+  104  cd ..
+  105  ls
+  106  cd workspaces/
+  107  ls
+  108  cd comp3044
+  109  ls
+  110  cd 20250710
+  111  ls
+  112  history > history0354.txt
