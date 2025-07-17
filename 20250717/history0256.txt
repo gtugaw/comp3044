@@ -1,0 +1,19 @@
+    1  ls -l
+    2  id
+    3  cat /etc/passwd | tail -3
+    4  who
+    5  sudo who
+    6  w
+    7  cat /etc/shadow
+    8  sudo cat /etc/shadow
+    9  sudo cat /etc/passwd
+   10  sudo cat /etc/shadow
+   11  las
+   12  lastg
+   13  last
+   14  sudo cat /etc/shadow | tail
+   15  sudo cat /etc/passwd | tail
+   16  sudo cat /etc/passwd
+   17  cd 20250717
+   18  ls
+   19  history > history0256.txt
