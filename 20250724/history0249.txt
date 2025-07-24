@@ -1,0 +1,48 @@
+    1  ls
+    2  mkdir 20250724
+    3  cd 20250724
+    4  ls
+    5  history > history0203.txt
+    6  ls
+    7  cat /etc/group
+    8  cat /etc/passwd
+    9  grep codespace /etc/passwd
+   10  getent passwd codespace
+   11  grep codespace /etc/group
+   12  sudo groupadd sales
+   13  grep sales /etc/group
+   14  tail /etc/group
+   15  sudo useradd jane
+   16  tail /etc/passwd
+   17  sudo userdel jane
+   18  sudo userdel sales
+   19  sudo groupdel sales
+   20  tail /etc/group
+   21  tail /etc/passwd
+   22  sudo useradd -g 10000 research
+   23  sudo groupadd -g 10000 research
+   24  tail /etc/group
+   25  sudo groupadd -r sales
+   26  tail /etc/group
+   27  neofetch
+   28  getent group sales
+   29  sudo groupmod -g 10005 research
+   30  getent group research
+   31  ls
+   32  touch leo.txt
+   33  ll
+   34  sudo usermod -a -G sales codespace
+   35  grep codespace /etc/group
+   36  ll
+   37  sudo chown :sales leo.txt
+   38  ll
+   39  sudo groupmod -n clerks sales
+   40  ll
+   41  tail /etc/group
+   42  sudo groupmod -g 10006 clerks
+   43  ll
+   44  find -nogroup
+   45  history > history0247.txt
+   46  sudo groupadd -g 985 newgroup
+   47  ll
+   48  history > history0249.txt
