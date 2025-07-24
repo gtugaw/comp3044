@@ -1,0 +1,5 @@
+    1  ls
+    2  mkdir 20250724
+    3  cd 20250724
+    4  ls
+    5  history > history0203.txt
