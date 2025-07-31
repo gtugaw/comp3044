@@ -1,0 +1,23 @@
+    1  mkdir 20250731
+    2  cd 20250732
+    3  cd 20250731
+    4  ls
+    5  is
+    6  id
+    7  groups
+    8  sudo groupadd -g 10005 research
+    9  getent group research 
+   10  sudo groupadd -g 10006 sample
+   11  sudo groupadd -g 10007 music
+   12  tail /etc/group
+   13  tail /etc/passwd
+   14  grep codespace /etc/group
+   15  sudo adduser ima
+   16  tail /etc/passwd
+   17  sudo usermod -aG research,sample,sudo inma
+   18  sudo usermod -aG research,sample,sudo ima
+   19  sudo adduser bob
+   20  sudo usermod -aG research,music,sudo bob
+   21  grep ima /etc/group
+   22  grep bob /etc/group
+   23  history > historyReviewForExam.txt
