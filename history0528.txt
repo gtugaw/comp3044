@@ -1,0 +1,33 @@
+    1  ls -l
+    2  mkdir temp
+    3  ls temp
+    4  ls -l
+    5  touch one.txt
+    6  ls -l
+    7  groups
+    8  chown :research one.txt
+    9  ls -l
+   10  newgrp research
+   11  touch four.txt
+   12  ls -l
+   13  chgrp sample four.txt
+   14  ls -l
+   15  chgrp music four.txt
+   16  sudo chgrp music four.txt
+   17  ls -l
+   18  ls -l /
+   19  ls -l /dev/
+   20  ls -l
+   21  chmod o+w four.txt
+   22  ls -l *.txt
+   23  chmod g+x four.txt
+   24  ls -l *.txt
+   25  chmod a=rwx four.txt
+   26  ls -l *.txt
+   27  chmod u=x four.txt
+   28  ls -l *.txt
+   29  cat four.txt
+   30  chmod u+rw four.txt
+   31  cat four.txt
+   32  ls -l *.txt
+   33  history > history0528.txt
