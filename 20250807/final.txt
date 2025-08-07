@@ -1,0 +1,81 @@
+    1  mkdir 20250807
+    2  cd 20250807
+    3  ls
+    4  sl
+    5  sudo apt udpate -yy
+    6  sudo apt update -yy
+    7  clear
+    8  more /etc/show
+    9  more /etc/shadow
+   10  groupadd -g 10000 team
+   11  sudo groupadd -g 10000 team
+   12  sudo adduser md
+   13  sudo adduser chan
+   14  sudo usermod -aG team md
+   15  sudo usermod -aG team chan
+   16  getent group team
+   17  ls -l /home/
+   18  ls -l /home/ -d
+   19  sudo mkdir /home/sandbox
+   20  ls -l /home/ -d
+   21  ls -l /home/
+   22  sudo chgrp team /home/sandbox/
+   23  ls -l /home/
+   24  sudo chmod o-rx /home/sandbox/
+   25  ls -l /home/
+   26  sudo chmod 770 /home/sandbox/
+   27  ls -l /home/
+   28  ls -l /usr/bin/passwd
+   29  ls -l /etc/passwd
+   30  ls -l /usr/bin/ls
+   31  sudo chmod u+s /usr/bin/ls
+   32  ls -l /usr/bin/ls
+   33  ls -l /home/chan -a
+   34  sudo chmod 075  /usr/bin/ls
+   35  sudo chmod 0755  /usr/bin/ls
+   36  ls -l /usr/bin/ls
+   37  find --help
+   38  find /usr/bin/ -perm -4000
+   39  su - md
+   40  sudo chmod 0755  /usr/bin/su
+   41* 
+   42  su - md
+   43  sudo chmod 4755  /usr/bin/su
+   44  history > codespace0241.txt
+   45  ls
+   46  ll
+   47  chmod u+s test
+   48  ll
+   49  ls -l /usr/bin/su
+   50  history > codespace0244.txt
+   51  chmod u+x test
+   52  ls -l /usr/bin/su
+   53  ll
+   54  chmod 4755 test
+   55  ll
+   56  chmod 0655 test
+   57  ll
+   58  ls -l /usr/bin/wall
+   59  sudo chgrp tty /usr/bin/wall
+   60  sudo chmod g+s /usr/bin/wall
+   61  ls -l /usr/bin/wall
+   62  sudo chmod 2755 /usr/bin/wall
+   63  ls -l /usr/bin/wall
+   64  sudo chmod 755 /usr/bin/wall
+   65  ls -l /usr/bin/wall
+   66  ls -l /home/sandbox/ -d
+   67  chmod 2770 /home/sandbox/
+   68  sudo chmod 2770 /home/sandbox/
+   69  ls -l /home/sandbox/ -d
+   70  ls -ll /home/sandbox/
+   71  ls -l /home/sandbox/ -d
+   72  sudo chmod 3770 /home/sandbox/
+   73  ls -l /home/sandbox/ -d
+   74* o
+   75  ls -i /etc/passwd
+   76  sudo ln /etc/passwd passwdleo
+   77  sudo ln /etc/passwd /passwdleo
+   78  ls -i /etc/passwd
+   79  ls -i /passwdleo
+   80  cat /passwdleo
+   81  history > final.txt
