@@ -1,0 +1,116 @@
+Final Examination Lab Test
+
+IMPORTANT:
+
+Exam Duration: 55 minutes.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+NOTE: 
+!!!! all paths MUST be absolute paths starting at the root !!!!
+!!!! all commands must be run as user "jane" (using root privileges) !!!!
+!!!! you are user jane
+!!!! jane is part of the sudo group, use sudo only when needed. If you use sudo incorrectly, marks will be deducted.
+!!!! do not use the cd command
+!!!! do not use the ~ (tilda)
+!!!! the quotes " in the questions are for naming acurracy, do not include them in your commands.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Before the end of the hour, upload the Lab Test (this file) to D2L. If you miss this window and fail to upload the file for any reason, the work will not be accepted. You may upload the work file as many times as you like, but, only the last upload will be marked. 
+
+I suggest uploading your work every 15 minutes, so, you know that you will get marks for what you have finished up to that point. 
+
+Instructions: Add your answers to this TEXT document (do not remove questions) and upload your completed work to the provided link on D2L: Final Lab Test drop box.
+
+*************
+Change the name of the file to your first name and student ID, before uploading. e.g. leo100100100.txt
+***If you do not change the name of the file to your first name and student ID you may receive a zero for the test.***
+*************
+
+All submissions will be checked for similarities. Any evidence that there has been academic dishonesty on a single question is grounds for an academic integrity breach for the entire exam. ABSOLUTELY NO COLLABORATION OR COPY/PASTED ANSWERS IS ALLOWED
+The exam has a cut off time set. The work will not be accepted once the cut off time has passed.
+Work that is not submitted by the cut off time will receive the grade of zero.
+
+There are 10 questions. Total is 12 marks.
+Include all paths in your answers.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+NOTE: 
+!!!! all paths MUST be absolute paths starting at the root !!!!
+!!!! all commands must be run as user "jane" (using root privileges) !!!!
+!!!! you are user jane
+!!!! jane is part of the sudo group, use sudo only when needed. If you use sudo incorrectly, marks will be deducted.
+!!!! do not use the cd command
+!!!! do not use the ~ (tilda)
+!!!! the quotes " in the questions are for naming acurracy, do not include them in your commands.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Include all paths in your answers.
+
+Q01) (1 mark)You are in the user "jane" home folder, create a folder named "examTime" inside of the /mnt folder:
+
+Answer:
+sudo mkdir /mnt/examTime
+
+Q02) (2 marks)Create a supplementary group called "team" with a "10000" gid and add "jane" to the supplementary group "team". (Two commands)
+
+Answer:
+sudo groupadd -g 10000 team
+sudo useradd -g team jane
+
+
+Q03) (1 mark)You are in the user "jane" home folder, change the ownership of the "examTime" folder to user "jane" and group "team".
+
+Answer:
+sudo chown jane:team /mnt/examTime
+
+
+Q03) (1 mark)You are in the user "jane" home folder, using symbolic permissions; set the permissions on the "examTime" folder so that:
+- anyone(other) would be able to enter the folder but not view the folder contents. Don't change the owner and group permissions. 
+
+Answer:
+sudo chmod o=r /mnt/examTime
+
+Q04) (1 mark)You are in the user "jane" home folder, set the permissions on the "examTime" folder so that:
+- only users that own the files in that folder should be able to delete the files they own and setgid so the files will be part of the folders group.
+
+Answer:
+sudo chmod g+s /mnt/examTime
+
+Q05) (1 mark)You are in the user "jane" home folder, redirect an /etc long folder listing, to create a text file named "etcList" in the "examTime" folder. 
+
+Answer:
+sudo touch /mnt/examTime/ectList
+sudo ls -ll /etc > /mnt/examTime/ectList
+
+Q06) (1 mark)You are in the user "jane" home folder, use octal permissions, in one command to change the permissions of the "etcList" file, so, the user and the group can read, write and execute the content, and the others have only read access to the file. 
+
+Answer:
+sudo chmod u=rwx,g=rwx /mnt/examTime/ectList
+
+Q07) (1 mark)You are in the user "jane" home folder, create a hard link to the "etcList" file located in the "examTime" folder. The hard link should be named "etcList.hl" and created in the home directory of user  "jane".
+
+Answer:
+sudo ln /mnt/examTime/etcList etcList.hl
+
+
+
+Q08) (1 mark)You are in the user "jane" home folder, create a symbolic link to the "etcList" file located in the "examTime" folder. The symbolic link should be named "etcList.sl" and created in the home directory of user "jane".
+
+Answer:
+sudo ln -s /mnt/examTime/etcList etcList.sl
+
+
+Q09) (1 mark)Write a single command that would display information about all the linux users, from the /etc directory, but only the last 5 lines.
+
+Answer:
+cat /etc/passwd | tail -5
+
+Q10) (2 marks)Write a single command that would run a ping for 127.0.0.1 and redirect the stdout to null and run this ping as a background process. 
+     Then give the command that will display that this process is currently running in the terminal.
+
+Answer:
+ping 127.0.0.1 >> /dev/null
